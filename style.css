@@ -345,11 +345,28 @@ hr {
 .footer-top__info > span {
   margin-right: 105px;
 }
-.footer-bottom {
-  height: 64px;
-}
 .footer-bottom__wrapper {
   width: 1110px;
   display: flex;
   margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+  color: #828282;
+}
+.my-contacts {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.my-contacts > li:first-child {
+  margin-left: 20px;
+}
+.my-contacts > li {
+  margin-left: 10px;
+}
+.my-contacts > li > a {
+  text-decoration: none;
+  color: #828282;
 }
