@@ -28,6 +28,11 @@ body {
 .nav-top > li > a {
   text-decoration: none;
   color: #333333;
+  transition: 0.2s ease-out;
+}
+.nav-top > li > a:hover {
+  text-decoration: none;
+  color: #adadad;
 }
 .header {
   background-color: #fff;
@@ -98,6 +103,10 @@ body {
   text-decoration: none;
   color: #000;
   font-size: 16px;
+  transition: 0.2s ease-out;
+}
+.nav-bottom > li > a:hover {
+  color: #adadad;
 }
 hr {
   margin: 0;
@@ -353,6 +362,11 @@ hr {
   align-items: center;
   height: 64px;
   color: #828282;
+  position: relative;
+}
+.footer-bottom__wrapper_contacts {
+  display: flex;
+  align-items: center;
 }
 .my-contacts {
   display: flex;
@@ -369,4 +383,18 @@ hr {
 .my-contacts > li > a {
   text-decoration: none;
   color: #828282;
+}
+.draft {
+  position: absolute;
+  right: 0;
+  text-decoration: none;
+  color: #66c05d;
+  font-size: 18px;
+  justify-self: right;
+  padding: 10px 10px;
+  border-radius: 10px;
+  transition: 0.2s ease-in;
+}
+.draft:hover {
+  background-color: #fff;
 }
